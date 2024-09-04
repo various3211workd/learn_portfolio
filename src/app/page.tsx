@@ -1,7 +1,12 @@
+import Layout from '../components/layout'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-    </main>
+    <Layout>
+      <h1>Welcome to My Blog</h1>
+      <p>This is a sample blog site built with Next.js, TypeScript, and Emotion.</p>
+    </Layout>
   );
 }
+
+
