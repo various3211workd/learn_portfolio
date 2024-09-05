@@ -11,7 +11,7 @@ type LayoutProps = {
 }
 
 const Layout = ({ children }: LayoutProps) => (
-  <html className='!scroll-smooth'>
+  <html className='!scroll-smooth dark'>
     <section id="top"></section>
     <Header />
 
