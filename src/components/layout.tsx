@@ -11,13 +11,14 @@ type LayoutProps = {
 }
 
 const Layout = ({ children }: LayoutProps) => (
-  <>
+  <html className='!scroll-smooth'>
+    <section id="top"></section>
     <Header />
-    
+
     {children}
 
     <Footer />
-  </>
+  </html>
 )
 
 export default Layout
