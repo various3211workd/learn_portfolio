@@ -1,10 +1,21 @@
 import Layout from '../components/layout'
+import Skils from '../components/skils'
+import Myprojects from '../components/myprojects'
+import Intro from '../components/intro'
+import MyNameIs from '../components/mynameis'
+
+import '../styles/globals.css';
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Welcome to My Blog</h1>
-      <p>This is a sample blog site built with Next.js, TypeScript, and Emotion.</p>
+
+      <Intro />
+
+      <MyNameIs />
+
+      <Myprojects />
+      <Skils />
     </Layout>
   );
 }

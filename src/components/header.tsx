@@ -9,28 +9,21 @@ import { ThemeProvider } from 'next-themes'
 const Header = () => {
   return (
 
-    <ThemeProvider attribute="class" defaultTheme="light">
-      <header className="sticky top-0 flex flex-row scroll-smooth">s
-
+    <ThemeProvider attribute="class" defaultTheme="dark">
+      <header className="sticky top-0 flex flex-row scroll-smooth">
           
         <a href="#top">
-          <FontAwesomeIcon icon={faHouse} className='text-5xl pt-5 pl-5 text-[#3C3D37]'/>
+          <FontAwesomeIcon icon={faHouse} className='text-5xl pt-5 pl-5 text-[#A04747] dark:text-[#EEDF7A]'/>
         </a>
+
+        <div className="top-0 flex flex-row fixed left-20">
+        <a href="#mynameis" className='text-3xl pt-5 pl-5 text-[#A04747] dark:text-[#EEDF7A] hover:underline decoration-[#A04747]'>MyNameIs</a>
+        <a href="#project" className='text-3xl pt-5 pl-5 text-[#A04747] dark:text-[#EEDF7A] hover:underline decoration-[#A04747]'>projects</a>
+        <a href="#skills" className='text-3xl pt-5 pl-5 text-[#A04747] dark:text-[#EEDF7A] hover:underline decoration-[#A04747]'>skills</a>
+        </div>
 
         <div className="fixed pt-5 right-5">
           <DarkModeButton />
-        </div>
-
-        <div className="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
-          <div>
-            <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
-            </span>
-          </div>
-          <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-          <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-            The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-          </p>
         </div>
 
       </header>
