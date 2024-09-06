@@ -31,12 +31,13 @@ const Hero = () => {
           <br />・デジタルフォレンジック
           <br />の経験があります。他にも自分で作成したスマホアプリを解析するなどして日々を過ごしています。
         </p>
-        <div className="flex justify-center flex-row">
+        <div className="flex justify-center flex-row my-20 pb-40">
           <a
             href="https://todoaaaaaa.hatenablog.com/"
             aria-label="Twitter"
             target="_blank"
             rel="ブログ"
+            className="pr-5"
           >
             <FontAwesomeIcon icon={faLink} className="text-4xl"/>
           </a>
