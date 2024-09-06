@@ -11,13 +11,15 @@ type LayoutProps = {
 }
 
 const Layout = ({ children }: LayoutProps) => (
-  <html className='!scroll-smooth dark'>
-    <section id="top"></section>
-    <Header />
+  <html className='!scroll-smooth'>
+    <div className="bg-[#ECDFCC] dark:bg-[#1E201E]">
+      <section id="top"></section>
+      <Header />
 
-    {children}
+      {children}
 
-    <Footer />
+      <Footer />
+    </div>
   </html>
 )
 
