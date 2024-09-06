@@ -5,7 +5,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 const Intro = () => {
   return (
-    <div className="flex justify-center items-center flex-col w-full h-screen">
+    <div className="flex justify-center w-full h-screen">
       
       
       <div className="flex justify-center flex-col bottom-0">

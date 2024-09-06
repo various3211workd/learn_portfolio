@@ -9,7 +9,7 @@ import { faLink, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 const Hero = () => {
   return (
     <section id="mynameis">
-    <div className="flex justify-center items-center flex-col w-full h-screen">
+    <div className="flex justify-center items-center flex-col pt-20">
       <Image src='/43775946.png' className="w-52 h-52 rounded-full" width={300} height={300} alt="" />
       <div className="mx-40">
         <div className="mt-8">
@@ -31,7 +31,7 @@ const Hero = () => {
           <br />・デジタルフォレンジック
           <br />の経験があります。他にも自分で作成したスマホアプリを解析するなどして日々を過ごしています。
         </p>
-        <div className="flex justify-center flex-row my-20 pb-40">
+        <div className="flex justify-center flex-row my-10 pb-40">
           <a
             href="https://todoaaaaaa.hatenablog.com/"
             aria-label="Twitter"
