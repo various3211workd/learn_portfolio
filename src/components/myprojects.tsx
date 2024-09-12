@@ -17,7 +17,7 @@ const Projects = () => {
               <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
                   <div className="grid grid-cols-3">
-                    <div className="text-gray-900 font-bold text-xl mb-2">{project.title}</div>
+                    <div className="text-gray-900 font-bold text-xl mb-2 col-span-2">{project.title}</div>
                     <span className="col-start-3 inline-block text-center text-white bg-[#D8A25E] rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2">
                       {project.dist}
                     </span>
