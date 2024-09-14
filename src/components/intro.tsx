@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="flex justify-center w-full h-screen">
       
       
-      <div className="flex justify-center flex-col bottom-0">
+      <div className="flex justify-center flex-col absolute bottom-20">
         <FontAwesomeIcon icon={faChevronDown} className="text-4xl" />
         <p className="text-xl flex justify-center">scroll</p>
       </div>
