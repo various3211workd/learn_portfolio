@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faListCheck } from '@fortawesome/free-solid-svg-icons';
-
 import { projectData } from './projectdata.js';
 
 

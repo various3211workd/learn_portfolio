@@ -9,7 +9,7 @@ export const projectData = [
       tec: ['Rails', 'Vuejs', 'PosrgreSQL', 'Docker', 'AWS'],
     },
     {
-      id: 4,
+      id: 2,
       title: '楽しくアイデア出しができるWebサイト',
       description:
         'アイデア出しの方法として「しりとり法」というものがあるという話を聞き、その「しりとり法」を楽しくできないかと思ったことや、「Vuejs」の学習用として作成したWebサイト',
