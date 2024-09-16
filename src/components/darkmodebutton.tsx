@@ -18,7 +18,10 @@ export const DarkModeButton = () => {
         type="button"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
-        {mounted && <>{theme === 'dark' ? <FontAwesomeIcon icon={faSun} width={38} height={38} className='text-5xl text-[#3C3D37]'/> : <FontAwesomeIcon icon={faMoon} width={38} height={38} className='text-5xl text-[#3C3D37]'/>}</>}
+        {mounted && <>{theme === 'dark' ? 
+            <FontAwesomeIcon icon={faSun} width={38} height={38} className='text-5xl text-[#EEDF7A]'/> : 
+            <FontAwesomeIcon icon={faMoon} width={38} height={38} className='text-5xl text-white'/>
+        }</>}
       </button>
     </>
   )
