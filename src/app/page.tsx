@@ -4,8 +4,6 @@ import Myprojects from '../components/myprojects'
 import Intro from '../components/intro'
 import MyNameIs from '../components/mynameis'
 
-import '../styles/globals.css';
-
 export default function Home() {
   return (
     <Layout>
