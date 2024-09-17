@@ -39,7 +39,7 @@ const Hero = () => {
             rel="ブログ"
             className="pr-5"
           >
-            <FontAwesomeIcon icon={faLink} className="text-4xl"/>
+            <FontAwesomeIcon icon={faLink} className="text-4xl duration-300 hover:text-[#A04747]"/>
           </a>
           <a
             href="https://github.com/various3211workd"
@@ -47,7 +47,7 @@ const Hero = () => {
             target="_blank"
             rel="Github"
           >
-            <FontAwesomeIcon icon={faGithub} className="text-4xl"/>
+            <FontAwesomeIcon icon={faGithub} className="text-4xl duration-300 hover:text-[#A04747]"/>
           </a>
       </div>
       </div>

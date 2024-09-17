@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from "@fortawesome/free-solid-svg-icons"
 
 import { DarkModeButton } from './darkmodebutton'
-import { ThemeProvider } from 'next-themes'
 
 const Header = () => {
   return (
