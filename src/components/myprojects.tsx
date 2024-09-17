@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <section id="project">
       <div className="pt-20 mx-10">
-        <p className="text-5xl pb-10 text-center underline decoration-[#A04747]">
+        <p className="text-4xl pb-10 text-center font-semibold whitespace-nowrap underline decoration-[#A04747]">
           プロジェクト紹介
         </p>
-        <div className="projects-grid">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-2 gap-2">
             {projectData && projectData.map((project) => (
               <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]">
                 <div className="mb-8">
@@ -35,9 +35,9 @@ const Projects = () => {
                   <a href={project.gitHubLink} className='text-right'>
                     <FontAwesomeIcon icon={faGithub} className="text-gray-900 text-4xl"/>
                   </a>
-                  </div>
-
                 </div>
+
+              </div>
             ))
             }
         </div>
