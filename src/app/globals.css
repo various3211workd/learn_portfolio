@@ -97,16 +97,3 @@ body {
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
 }
-
-/* Projects */  
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* repeatの数値を変更して、何分割ごとに配置するかを変更可能 */
-  gap: 2rem;
-}
-
-@media screen and (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
