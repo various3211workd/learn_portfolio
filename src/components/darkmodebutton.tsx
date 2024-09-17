@@ -12,17 +12,15 @@ export const DarkModeButton = () => {
   useEffect(() => setMounted(true), [])
 
   return (
-    <>
-      <button
-        aria-label="DarkModeToggle"
-        type="button"
-        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      >
-        {mounted && <>{theme === 'dark' ? 
-            <FontAwesomeIcon icon={faSun} width={38} height={38} className='text-5xl text-[#EEDF7A]'/> : 
-            <FontAwesomeIcon icon={faMoon} width={38} height={38} className='text-5xl text-white'/>
-        }</>}
-      </button>
-    </>
+    <button
+      aria-label="DarkModeToggle"
+      type="button"
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+    >
+      {mounted && <>{theme === 'dark' ? 
+          <FontAwesomeIcon icon={faSun} width={38} height={38} className='text-2xl text-[#EEDF7A]'/> : 
+          <FontAwesomeIcon icon={faMoon} width={38} height={38} className='text-2xl text-[#EEDF7A]'/>
+      }</>}
+    </button>
   )
 }
