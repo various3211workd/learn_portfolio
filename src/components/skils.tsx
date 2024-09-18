@@ -5,7 +5,7 @@ const Skills = () => {
     <section id="skills">
       <div className="text-center pt-20">
         <p className="text-4xl pb-10 text-center font-semibold whitespace-nowrap underline decoration-[#A04747]">
-          スキル
+          Skill
         </p>
 
         <p className="text-xl my-5">業務・趣味で成果物を作ったことがある</p>
