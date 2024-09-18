@@ -57,8 +57,8 @@ body {
 }
 
 .skills-container .grid-skills .skill-card {
-  background-color: #DADADB;
-  color: #1D1E20;
+  background-color: #dadadb;
+  color: #1d1e20;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,19 +75,19 @@ body {
 }
 
 .skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
+  background-color: #e34f26;
 }
 
 .skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+  background-color: #264de4;
 }
 
 .skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
+  background-color: #f7df1e;
 }
 
 .skills-container .grid-skills .react:hover {
-  background-color: #61DAFB;
+  background-color: #61dafb;
 }
 
 .skills-container .grid-skills .node:hover {
@@ -95,5 +95,5 @@ body {
 }
 
 .skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
+  background-color: #3776ab;
 }
