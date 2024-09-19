@@ -6,13 +6,13 @@ export const projectData = [
       'Rails + Vuejsを使用し、チームで開発を行ったWebアプリケーション。アジャイル手法で開発を進めた。このプロジェクトを進めていて成長できたことは、「タスクを細分化することで役割分担を行い効率良くチーム開発を行えた」ことや、「毎朝の簡易MTGで、受け持ってるタスクの進捗報告や困った箇所についての質問」ができたことがある。また技術的な要素として、RailsをAPIモードで使用し、完全にバックエンドとフロントエンドを分けた点が新しかった。',
     dist: 'Webアプリ',
     gitHubLink: 'https://github.com/various3211workd/musclers',
-    tec: ['Rails', 'Vuejs', 'PosrgreSQL', 'Docker', 'AWS'],
+    tec: ['Rails', 'PosrgreSQL', 'Vuejs', 'Docker', 'AWS'],
   },
   {
     id: 2,
     title: '楽しくアイデア出しができるWebサイト',
     description:
-      'アイデア出しの方法として「しりとり法」というものがあるという話を聞き、その「しりとり法」を楽しくできないかと思ったことや、「Vuejs」の学習用として作成したWebサイト',
+      'アイデア出しの方法として「しりとり法」というものがあるという話を聞き、その「しりとり法」を楽しくできないかと思ったことや、「Vuejs」の学習用として作成したWebサイト。',
     dist: 'Webアプリ',
     gitHubLink: 'https://github.com/various3211workd/pop_idea',
     tec: ['Vuejs'],
@@ -37,10 +37,11 @@ export const projectData = [
   },
   {
     id: 5,
-    title: '',
-    description: '',
-    dist: '',
-    gitHubLink: 'h',
-    tec: [''],
+    title: 'まいぽーとふぉりお',
+    description:
+      'React, Next.js, TypeScript, Tailwind CSS の勉強のために作成。',
+    dist: 'Webアプリ',
+    gitHubLink: 'https://github.com/various3211workd/learn_portfolio',
+    tec: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
   },
 ];

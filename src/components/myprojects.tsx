@@ -14,12 +14,14 @@ const Projects = () => {
             projectData.map((project) => (
               <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]">
                 <div className="mb-8">
-                  <div className="grid grid-cols-3">
-                    <div className="text-gray-900 font-bold text-xl mb-2 col-span-2">
+                  <div className="grid md:grid-cols-3">
+                    <div className="text-gray-900 font-bold text-auto md:text-xl mb-2 col-span-2">
                       {project.title}
                     </div>
-                    <span className="col-start-3 inline-block text-center text-white bg-[#D8A25E] rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2">
-                      {project.dist}
+                    <span className="md:col-start-3 col-start-1 col-span-3 md:grid">
+                      <p className="text-white text-sm font-semibold bg-[#D8A25E] inline-block md:text-center rounded-md px-3 py-1 mr-2 mb-2">
+                        {project.dist}
+                      </p>
                     </span>
                   </div>
                   <p className="text-gray-700 text-base">
@@ -27,8 +29,8 @@ const Projects = () => {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-4">
-                  <div className="col-span-3">
+                <div className="grid grid-cols-11">
+                  <div className="col-span-10">
                     {project.tec.map((tec) => (
                       <span className="inline-block bg-gray-200 rounded-md px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                         {tec}
@@ -36,7 +38,10 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <a href={project.gitHubLink} className="text-right">
+                  <a
+                    href={project.gitHubLink}
+                    className="flex justify-end items-end "
+                  >
                     <FontAwesomeIcon
                       icon={faGithub}
                       className="text-gray-900 text-4xl"
