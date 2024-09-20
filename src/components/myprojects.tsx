@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFolder } from '@fortawesome/free-solid-svg-icons';
+
 import { projectData } from './projectdata.js';
 
 const Projects = () => {
@@ -7,6 +9,7 @@ const Projects = () => {
     <section id="project">
       <div className="pt-20 mx-10">
         <p className="text-4xl pb-10 text-center font-semibold whitespace-nowrap underline decoration-[#A04747]">
+          <FontAwesomeIcon icon={faFolder} className="pr-2" />
           Project
         </p>
         <div className="flex justify-center grid grid-cols-1 md:grid-cols-2 gap-2">
