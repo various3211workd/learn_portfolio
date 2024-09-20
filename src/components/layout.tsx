@@ -11,7 +11,7 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => (
-  <div className="bg-gray-200 dark:bg-gray-900">
+  <div className="bg-gray-200 dark:bg-gray-900 text-slate-800 dark:text-slate-200">
     <section id="top"></section>
     <Header />
 
