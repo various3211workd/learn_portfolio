@@ -1,10 +1,14 @@
 import { mainSkillData, subSkillData } from './skilldata.js';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWrench } from '@fortawesome/free-solid-svg-icons';
+
 const Skills = () => {
   return (
     <section id="skills">
       <div className="text-center pt-20">
         <p className="text-4xl pb-10 text-center font-semibold whitespace-nowrap underline decoration-[#A04747]">
+          <FontAwesomeIcon icon={faWrench} className="pr-2" />
           Skill
         </p>
 
