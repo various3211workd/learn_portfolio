@@ -15,10 +15,10 @@ const Hero = () => {
           height={300}
           alt=""
         />
-        <div className="mx-40">
+        <div className="md:mx-40 mx-10">
           <div className="mt-8">
-            <p className="font-bold text-2xl text-center pb-5">
-              Nextjs/React/Tailwind cssの勉強用のポートフォリオ。
+            <p className="font-bold md:text-2xl text-lg text-center pb-5 underline decoration-[#A04747]">
+              Nextjs/React/Tailwind CSSの勉強用のポートフォリオ
             </p>
             <div />
             <p className="text-base mb-2">
