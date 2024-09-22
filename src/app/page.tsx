@@ -3,6 +3,7 @@ import Skils from '../components/skils';
 import Myprojects from '../components/myprojects';
 import Intro from '../components/intro';
 import MyNameIs from '../components/mynameis';
+import Slide from '@/components/slide';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <Myprojects />
       <Skils />
+      <Slide />
     </Layout>
   );
 }
