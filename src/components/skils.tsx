@@ -1,4 +1,5 @@
-import { mainSkillData, subSkillData } from './skilldata.js';
+import { SkillData } from './skilldata.js';
+import SkillTag from './skilltag';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWrench } from '@fortawesome/free-solid-svg-icons';
@@ -12,31 +13,14 @@ const Skills = () => {
           Skill
         </p>
 
+        <p className="text-xl my-5">業務・趣味で複数回使用したことがある</p>
+        <SkillTag skilldata={SkillData.mainSkillData} />
+
         <p className="text-xl my-5">業務・趣味で成果物を作ったことがある</p>
-        {mainSkillData &&
-          mainSkillData.map((skill) => (
-            <div className="flex justify-center items-left">
-              <div className="md:w-full lg:mx-72">
-                {skill.skill.map((s) => (
-                  <span className="inline-block rounded-full px-3 py-1 mr-2 mb-2 font-medium border bg-white dark:bg-gray-800 border-gray-300">
-                    <p>{s}</p>
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
+        <SkillTag skilldata={SkillData.seccondSkillData} />
 
         <p className="text-xl my-5">触ったことがある</p>
-        {subSkillData &&
-          subSkillData.map((skill) => (
-            <div className="flex justify-center items-left">
-              <div className="md:w-full lg:mx-72">
-                <span className="inline-block rounded-full px-3 py-1 mr-2 mb-2 font-medium border bg-white dark:bg-gray-800 border-gray-300">
-                  <p>{skill.skill}</p>
-                </span>
-              </div>
-            </div>
-          ))}
+        <SkillTag skilldata={SkillData.thirdSkillData} />
       </div>
     </section>
   );
