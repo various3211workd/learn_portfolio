@@ -6,31 +6,39 @@ export const mainSkillData = [
       'Docker',
       'Ruby on Rails',
       'Vue.js',
-      'Next.js',
-      'React',
-      'postgreSQL',
+      'PostgreSQL',
       'MySQL',
       'Python',
       'PHP',
-      'Java',
       'Rust',
-      'C',
-      'TypeScript',
       'CSS',
-      'Nodejs',
       'Linux',
       'Git',
       'Github',
-      'Flutter',
-      'Dart',
-      'sqlite3',
     ],
   },
 ];
 
-export const subSkillData = [
+export const seccondSkillData = [
   {
     id: 2,
+    skill: [
+      'Flutter',
+      'Dart',
+      'sqlite3',
+      'C',
+      'Java',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Nodejs',
+    ],
+  },
+];
+
+export const thirdSkillData = [
+  {
+    id: 3,
     skill: ['Go'],
   },
 ];
