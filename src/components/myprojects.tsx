@@ -15,7 +15,10 @@ const Projects = () => {
         <div className="flex justify-center grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectData &&
             projectData.map((project) => (
-              <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]">
+              <div
+                className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]"
+                key=""
+              >
                 <div className="mb-8">
                   <div className="grid md:grid-cols-3">
                     <div className="text-gray-900 font-bold text-auto md:text-xl mb-2 col-span-2">
@@ -35,7 +38,10 @@ const Projects = () => {
                 <div className="grid grid-cols-11">
                   <div className="col-span-10">
                     {project.tec.map((tec) => (
-                      <span className="inline-block bg-gray-200 rounded-md px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      <span
+                        className="inline-block bg-gray-200 rounded-md px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                        key=""
+                      >
                         {tec}
                       </span>
                     ))}
