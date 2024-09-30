@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faFolder } from '@fortawesome/free-solid-svg-icons';
+import { faFolder, faLink } from '@fortawesome/free-solid-svg-icons';
 
 import { projectData } from './projectdata.js';
 
@@ -48,8 +48,9 @@ const Projects = () => {
                   </div>
 
                   <a
-                    href={project.gitHubLink}
+                    href={project.link}
                     className="flex justify-end items-end "
+                    target="_blank"
                   >
                     <FontAwesomeIcon
                       icon={faGithub}
