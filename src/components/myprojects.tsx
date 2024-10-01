@@ -5,6 +5,17 @@ import { faFolder, faLink } from '@fortawesome/free-solid-svg-icons';
 import { projectData } from './projectdata.js';
 
 const Projects = () => {
+  const getIcon = (linkType: string) => {
+    switch (linkType) {
+      case 'github':
+        return faGithub;
+      case 'link':
+        return faLink;
+      default:
+        return faLink;
+    }
+  };
+
   return (
     <section id="project">
       <div className="pt-20 mx-10">
@@ -53,7 +64,7 @@ const Projects = () => {
                     target="_blank"
                   >
                     <FontAwesomeIcon
-                      icon={faGithub}
+                      icon={getIcon(project.linkType)}
                       className="text-gray-900 text-4xl"
                     />
                   </a>
