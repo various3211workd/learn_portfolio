@@ -13,6 +13,7 @@ export const SkillData = {
     'Linux',
     'Git',
     'Github',
+    'Powershell',
   ],
   seccondSkillData: [
     'Flutter',
