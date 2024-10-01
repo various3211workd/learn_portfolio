@@ -25,10 +25,10 @@ const Projects = () => {
         </p>
         <div className="flex justify-center grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectData &&
-            projectData.map((project) => (
+            projectData.map((project, key) => (
               <div
                 className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]"
-                key=""
+                key={key}
               >
                 <div className="mb-8">
                   <div className="grid md:grid-cols-3">
