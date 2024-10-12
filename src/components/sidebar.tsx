@@ -8,7 +8,7 @@ const Sidebar = ({
 }: {
   isOpen: boolean;
   toggle: () => void;
-}): JSX.Element => {
+}) => {
   return (
     <>
       <div
