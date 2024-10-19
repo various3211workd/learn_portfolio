@@ -12,7 +12,7 @@ const Sidebar = ({
   return (
     <>
       <div
-        className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
+        className="border-gray-200 dark:bg-gray-800 dark:border-gray-700 sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
         style={{
           opacity: `${isOpen ? '1' : '0'}`,
           top: ` ${isOpen ? '0' : '-100%'}`,

@@ -57,7 +57,7 @@ const MyProjects: React.FC = () => {
           </select>
         </div>
 
-        <div className="flex justify-center grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 justify-center md:grid-cols-2 gap-2">
           {filteredProjects.map((project, key) => (
             <div
               className="bg-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between border-4 border-white duration-300 hover:border-[#A04747]"
