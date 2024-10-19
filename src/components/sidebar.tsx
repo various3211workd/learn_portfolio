@@ -29,7 +29,7 @@ const Sidebar = ({
             </a>
           </li>
           <li>
-            <a href="#mynameis" className="block py-2" onClick={toggle}>
+            <a href="#introduction" className="block py-2" onClick={toggle}>
               introduction
             </a>
           </li>
