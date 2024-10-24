@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFolder, faLink } from '@fortawesome/free-solid-svg-icons';
 
-import { projectData } from './projectData';
+import { projectData } from './projectdata';
 
 const MyProjects: React.FC = () => {
   const [selectedDist, setSelectedDist] = useState<string>('全て');
